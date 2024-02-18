@@ -14,7 +14,7 @@ print("Общее количество участников в акции:", tot
 
 # Пример использования
 # market = Market()
-market = Market("logs\market_log.txt")
+market = Market("market_log.txt")
 market.join_queue("Person1")
 market.join_queue("Person2")
 print(market.leave_queue())  # Выведет: Person1
